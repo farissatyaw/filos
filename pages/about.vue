@@ -1,10 +1,10 @@
 <template>
-    <div class="h-full bg-red">
+    <div class="h-full bg-blue">
         <div class="mb-2">
             <div class="half">
-                <img class="" src="~/assets/img/icon.png" alt="">
+                <!-- <img class="" src="~/assets/img/icon.png" alt=""> -->
             </div>
-            <div class="half text-center rounded-tl-lg bg-white">
+            <div class="half text-center rounded-tl-lg bg-white-opacity">
                 <div class="p-4 flex flex-col justify-between">
                     <h1 class="text-4xl text-blue-800 mb-3">Selamat Datang di Filos</h1>
                     <p class="m-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, unde, deserunt esse voluptatem quam totam a quod tenetur ullam nulla autem, quasi possimus quidem accusamus quo quisquam ducimus dolore magnam?</p> 
@@ -35,8 +35,11 @@ export default {
 .half{
     height: 50vh;
 }
-.bg-red{
+.bg-blue{
     background-color: #65BCBF;
+}
+.bg-white-opacity{
+    background-color: rgba(255,255,255,0.7);
 }
 
 </style>
