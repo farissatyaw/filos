@@ -21,7 +21,8 @@ export default {
 </script>
 <style>
 body{
-    background-color: #83DDD5;
+    background-image: url(~/assets/img/image14.png);
+    background-size: cover;
     @apply flex items-center justify-center py-10;
 }
 .card{

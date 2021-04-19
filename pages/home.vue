@@ -26,25 +26,25 @@
            <div class="flex mt-5 justify-between">
                 <div>
                     <div class="card-small">
-
+                        <img src="~/assets/img/bahagia.png" alt="" srcset="">
                     </div>
                     <p class="text-sm text-center mt-0.5">Bahagia</p>
                 </div>
                 <div>
                     <div class="card-small">
-
+                        <img class="" src="~/assets/img/kecewa.png" alt="" srcset="">
                     </div>
                     <p class="text-sm text-center mt-0.5">Kecewa</p>
                 </div>
                 <div>
                     <div class="card-small">
-
+                        <img src="~/assets/img/marah.png" alt="" srcset="">
                     </div>
                     <p class="text-sm text-center mt-0.5">Marah</p>
                 </div>
                 <div>
                     <div class="card-small">
-
+                        <img src="~/assets/img/sedih.png" alt="" srcset="">
                     </div>
                     <p class="text-sm text-center mt-0.5">Sedih</p>
                 </div>  
@@ -70,7 +70,7 @@ export default {
     padding: 1.5rem;
 }
 .section1{
-    background-color: #64BCBE;
+    background-image: linear-gradient(45deg,#64BCBE 75%,white);
 }
 .section3{
     padding-top: inherit;
@@ -85,7 +85,7 @@ export default {
     width: 66px;
     height: 65px;
     background-color: #64BCBE;
-    @apply rounded-xl
+    @apply rounded-xl flex items-center justify-center;     
 }
 .bg-button{
     background-color: #0E1B47;

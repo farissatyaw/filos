@@ -36,7 +36,8 @@ export default {
     border-bottom: 1px solid #858586;
 }
 .bg-turqoise{
-    background-color: #9BE6DA;
+    background-image: url(~/assets/img/image14.png);
+    background-size: cover;
 }
 .bg-blue{
     background-color: #0D1B46;

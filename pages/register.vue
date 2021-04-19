@@ -44,7 +44,8 @@ export default {
     @apply mb-5
 }
 .bg-red{
-    background-color: #9BE6DA;
+    background-image: url(~/assets/img/image14.png);
+    background-size: cover;
 }
 .bg-blue{
     background-color: #0D1B46;

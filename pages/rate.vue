@@ -42,7 +42,8 @@ export default {
     @apply mb-3
 }
 .bg-turqoise{
-    background-color: #65BCBF;
+    background-image: url(~/assets/img/image14.png);
+    background-size: cover;
 }
 .bg-blue{
     background-color: #0D1B46;
@@ -53,6 +54,5 @@ export default {
 .card{
     background-color: rgba(255,255,255,0.7);
     @apply rounded-lg shadow-2xl;
-    
 }
 </style>
