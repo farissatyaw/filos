@@ -2,10 +2,10 @@
     <div class="h-full">
         <div class="section1 section-padding rounded-b-lg">
             <div class="flex justify-between">
-                <p class="text-white text-xl font-medium">Halo, <span class="font-thin">Nama!</span></p>
+                <p class="text-white text-xl font-medium">Halo, <span class="font-thin">Gol D. Roger!</span></p>
                 <img style="width:44px;" src="~/assets/img/profpicplaceholder.png" alt="">
             </div>
-            <p class="text-white text-3xl mt-3 pb-3 font-bold">Bagaimaa Kabarmu Hari ini?</p>
+            <p class="text-white text-3xl mt-3 pb-3 font-bold">Bagaimana Kabarmu Hari ini?</p>
         </div>
         <div class="section2 section-padding">
             <div class="flex justify-between">
@@ -50,7 +50,7 @@
                 </div>  
            </div>
            <div class="w-full flex justify-center mt-4">
-                <button class=" bg-button px-6 py-3 font-bold text-white rounded-full">Curhat Sekarang</button>
+                <a href="/loading" class=" bg-button px-6 py-3 font-bold text-white rounded-full">Curhat Sekarang</a>
            </div>
            
         </div>

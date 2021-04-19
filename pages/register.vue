@@ -13,13 +13,18 @@
                     <p>Username : </p>
                     <input class="input-line" type="text" name="username" >
                     <p>Password : </p>
-                    <input class="input-line" type="text" name="password" >
-                    <p>Jenis Kelamin : </p>
-                    <input class="input-line" type="text" name="password" >
-                    <label class="inline-flex items-center mb-3">
+                    <input class="input-line" type="password" name="password" >
+                    <label for="gender">Jenis Kelamin</label>
+                    <select name="gender" id="gender">
+                        <option value="volvo">Laki-laki</option>
+                        <option value="saab">Perempuan</option>
+                        <option value="saab">Tidak Menyebutkan</option>
+                    </select>
+                    <label class="inline-flex items-center my-3">
                         <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" checked><span class="ml-2 text-xs text-gray-700">Saya Setuju Dengan S&K Berlaku</span>
                     </label>
-                    <button class="bg-blue px-4 py-1 rounded-lg mt-3"><span class="text-white">Login</span></button>
+                    
+                        <a href="/home" class="bg-blue px-4 py-1 rounded-lg mt-3 text-white text-center">Login</a>     
                 </div>
                 
             </div>

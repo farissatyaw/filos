@@ -7,7 +7,7 @@
             <h1 class="text-3xl font-bold mt-6">Waktu habis</h1>
         </div>
             
-        <h2 class="text-center italic text-sm">Lanjut 30 menit?<br><button>Ya</button>  / <button>Tidak</button></h2>
+        <h2 class="text-center italic">Lanjut 30 menit?<br><NuxtLink to="/calling">Ya</NuxtLink>  / <a href ="/rate">Tidak</a></h2>
     </div>
 </template>
 <script>

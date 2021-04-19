@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <button class=" bg-button px-10 py-2 font-light text-white rounded-full">Submit</button>
+                    <button class=" bg-button px-10 py-2 font-light text-white rounded-full"><a href="/home">Submit</a></button>
                 </div>
             </div>
         </div>  

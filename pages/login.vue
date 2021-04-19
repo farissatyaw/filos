@@ -6,15 +6,15 @@
             </div>
             <div class="mt-3">
                 <div class="card p-4 my-6 flex flex-col">
-                    <p class="text-lg mb-4">Nama : </p>
-                    <input class="input-line mb-6" type="text" name="password" >
+                    <p class="text-lg mb-4">Username : </p>
+                    <input class="input-line mb-6" type="text" name="username" >
                     <p class="text-lg mb-4">Password : </p>
-                    <input class="input-line mb-3" type="text" name="password" >
+                    <input class="input-line mb-3" type="password" name="password" >
                     <div class="flex justify-center mt-6 mb-3">
-                        <button class="bg-blue rounded-full text-white py-2 px-10">Login</button>
+                        <a href="/home" class="bg-blue rounded-full text-white py-2 px-10">Login</a>
                     </div>   
                 </div>     
-                <p class="text-sm text-center">Belum Memiliki Akun? <a href="#" class="font-bold">Daftar Sekarang</a> </p>
+                <p class="text-sm text-center">Belum Memiliki Akun? <a href="/register" class="font-bold">Daftar Sekarang</a> </p>
             </div>
         </div>  
     </div>

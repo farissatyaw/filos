@@ -11,12 +11,17 @@
     </div>
 </template>
 <script>
+
 export default {
     head(){
         return {
             title: "Searching for partner"
         }
-    }
+    },
+    mounted(){
+        setTimeout(function(){
+            window.location.href="/calling"
+        }, 5000)}
 }
 </script>
 <style>
