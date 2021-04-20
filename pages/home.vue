@@ -13,10 +13,10 @@
                 <a class="self-end text-xs text-blue-500" href="#">Lihat Semua</a>
             </div>
             <div class="flex mt-5">
-                <div class="card mr-3" style="background-color:#FE99B0;">
+                <div class="card-home mr-3" style="background-color:#FE99B0;">
                     <p class="text-white text-xl p-4">Patah hati</p>
                 </div>
-                <div class="card" style="background-color:#229895;">
+                <div class="card-home" style="background-color:#229895;">
                     <p class="text-white text-xl p-4">Keluarga</p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 </div>  
            </div>
            <div class="w-full flex justify-center mt-4">
-                <a href="/loading" class=" bg-button px-6 py-3 font-bold text-white rounded-full">Curhat Sekarang</a>
+                <NuxtLink to="/loading" class=" bg-button px-6 py-3 font-bold text-white rounded-full">Curhat Sekarang</NuxtLink>
            </div>
            
         </div>
@@ -75,7 +75,7 @@ export default {
 .section3{
     padding-top: inherit;
 }
-.card{
+.card-home{
     width: 269px;
     height: 123px;  
     @apply rounded-xl;

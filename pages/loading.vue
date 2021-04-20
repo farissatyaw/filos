@@ -1,5 +1,6 @@
 <template>
-    <div class="card">
+    <div class="body-loading">
+        <div class="card-loading">
         <div class="">
             <svg class="flex ml-6" height="150" width="150">
                 <circle cx="75" cy="75" r="60" stroke="black" stroke-width="0" fill="gray" />
@@ -8,6 +9,7 @@
         </div>
             
         <h2 class="text-center italic text-sm">When education is not liberating, the dream of the oppressed is to become the oppressor.</h2>
+    </div>
     </div>
 </template>
 <script>
@@ -25,12 +27,12 @@ export default {
 }
 </script>
 <style>
-body{
+.body-loading{
     background-image: url(~/assets/img/image14.png);
     background-size:cover; 
     @apply flex items-center justify-center py-10;
 }
-.card{
+.card-loading{
     background-color: rgba(255, 255, 255, 0.7);
     height: 649px;
     width: 317px;

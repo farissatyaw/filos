@@ -11,10 +11,10 @@
                     <p class="text-lg mb-4">Password : </p>
                     <input class="input-line mb-3" type="password" name="password" >
                     <div class="flex justify-center mt-6 mb-3">
-                        <a href="/home" class="bg-blue rounded-full text-white py-2 px-10">Login</a>
+                        <NuxtLink to="/home" class="bg-blue rounded-full text-white py-2 px-10">Login</NuxtLink>
                     </div>   
                 </div>     
-                <p class="text-sm text-center">Belum Memiliki Akun? <a href="/register" class="font-bold">Daftar Sekarang</a> </p>
+                <p class="text-sm text-center">Belum Memiliki Akun? <NuxtLink to="/register" class="font-bold">Daftar Sekarang</NuxtLink> </p>
             </div>
         </div>  
     </div>
@@ -23,7 +23,7 @@
 export default {
     head(){
         return {
-            title: "About the app"
+            title: "Login Page"
         }
     }
 }

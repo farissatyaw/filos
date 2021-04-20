@@ -1,5 +1,6 @@
 <template>
-    <div class="card">
+    <div class="body-calling">
+        <div class="card">
         <div class="">
             <svg class="flex ml-10" height="150" width="150">
                 <circle cx="75" cy="75" r="60" stroke="black" stroke-width="0" fill="gray" />
@@ -13,6 +14,7 @@
             
         </div>  
         
+    </div>
     </div>
 </template>
 <script>
@@ -40,7 +42,7 @@ export default {
 }
 </script>
 <style>
-body{
+.body-calling{
     background-image: url(~/assets/img/image14.png);
     background-size: cover;
     @apply flex items-center justify-center py-10;

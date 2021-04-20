@@ -3,7 +3,7 @@
         <div class="mt-3">
             
             <div class="">
-                <div class="card p-4 my-6 flex flex-col items-center">
+                <div class="card-rate p-4 my-6 flex flex-col items-center">
                     <h1 class="text-2xl font-bold">Thank You</h1>
                     <svg class="flex" height="150" width="150">
                         <circle cx="75" cy="75" r="60" stroke="black" stroke-width="0" fill="gray" />
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <button class=" bg-button px-10 py-2 font-light text-white rounded-full"><a href="/home">Submit</a></button>
+                    <button class=" bg-button px-10 py-2 font-light text-white rounded-full"><NuxtLink to="/home">Submit</NuxtLink></button>
                 </div>
             </div>
         </div>  
@@ -25,7 +25,7 @@
 export default {
     head(){
         return {
-            title: "About the app"
+            title: "Rate Our Service"
         }
     },
     data: (i) => ({
@@ -51,7 +51,7 @@ export default {
 .bg-button{
     background-color: #0E1B47;
 }
-.card{
+.card-rate{
     background-color: rgba(255,255,255,0.7);
     @apply rounded-lg shadow-2xl;
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full bg-blue">
+    <div class="h-full bg-blue-index">
         <div class="mb-2">
             <div class="half flex items-center justify-center">
                 <img class="" src="~/assets/img/gambar1.png" alt="">
@@ -9,12 +9,12 @@
                     <h1 class="text-4xl font-bold text-heading mb-3">Selamat Datang di Filos</h1>
                     <p class="m-5 text-xl text-center">Halo, Bagaimana Harimu?<br>Apakah baik-baik saja?<br>Atau malah tidak?</p> 
                     <div class="flex justify-end">
-                        <a href="/login">
+                        <NuxtLink to="/login">
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg> -->
                             <img src="~/assets/img/arrow.png" alt="">
-                        </a>  
+                        </NuxtLink>  
                     </div>
                                     
                 </div>
@@ -27,7 +27,7 @@
 export default {
     head(){
         return {
-            title: "About the app"
+            title: "Welcome to Filos"
         }
     }
 }
@@ -36,7 +36,7 @@ export default {
 .half{
     height: 50vh;
 }
-.bg-blue{
+.bg-blue-index{
     background-image: url(~/assets/img/image14.png);
 }
 .bg-white-opacity{

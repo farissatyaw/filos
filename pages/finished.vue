@@ -1,5 +1,6 @@
 <template>
-    <div class="card">
+    <div class="body-finished">
+        <div class="card">
         <div class="">
             <svg class="flex ml-6" height="150" width="150">
                 <circle cx="75" cy="75" r="60" stroke="black" stroke-width="0" fill="gray" />
@@ -7,20 +8,21 @@
             <h1 class="text-3xl font-bold mt-6">Waktu habis</h1>
         </div>
             
-        <h2 class="text-center italic">Lanjut 30 menit?<br><NuxtLink to="/calling">Ya</NuxtLink>  / <a href ="/rate">Tidak</a></h2>
+        <h2 class="text-center italic">Lanjut 30 menit?<br><NuxtLink to="/calling">Ya</NuxtLink>  / <NuxtLink to="/rate">Tidak</NuxtLink></h2>
+    </div>
     </div>
 </template>
 <script>
 export default {
     head(){
         return {
-            title: "Searching for partner"
+            title: "Continue?"
         }
     }
 }
 </script>
 <style>
-body{
+.body-finished{
     background-image: url(~/assets/img/image14.png);
     background-size: cover;
     @apply flex items-center justify-center py-10;

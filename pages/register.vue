@@ -24,7 +24,7 @@
                         <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" checked><span class="ml-2 text-xs text-gray-700">Saya Setuju Dengan S&K Berlaku</span>
                     </label>
                     
-                        <a href="/home" class="bg-blue px-4 py-1 rounded-lg mt-3 text-white text-center">Login</a>     
+                        <NuxtLink to="/home" class="bg-blue px-4 py-1 rounded-lg mt-3 text-white text-center">Login</NuxtLink>     
                 </div>
                 
             </div>
@@ -35,7 +35,7 @@
 export default {
     head(){
         return {
-            title: "About the app"
+            title: "Create new account"
         }
     }
 }
